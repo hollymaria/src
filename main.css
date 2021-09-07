@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.web-header{
+    font-family: 'Righteous', sans-serif;
+    font-size: 100px;
+    color: #000;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .promo-p {
+      font-family: 'Righteous', sans-serif;
+      font-size: 30px;
+      color: rgb(128, 4, 25);
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      margin-left: 10px;
+      margin-right: 10px;
+      
+  }
+
+  .small-print {
+    font-family: 'Righteous', sans-serif;
+    font-size: 11px;
+    color: rgb(104, 8, 8);
+    text-align: center;
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .member {
+    font-family: 'Righteous', sans-serif;
+    font-size: 26px;
+
+    color:rgb(14, 44, 126);
+    text-align: center;
+    font-weight: 900;
+    text-shadow: #000 3.px;
+
+  }
+
+  .member-btn {
+     padding: 10px;
+     margin-top: 20px;
+     border-radius: 16px 0px 16px 2px;
+     font-size: 15px;
+     font-family: 'Righteous', sans-serif;
+     width: 200px;
+  }
